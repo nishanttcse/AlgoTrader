@@ -1,19 +1,29 @@
-# 📈 AlgoTrader - Modular Algo-Trading and Backtesting System
+# 📈 Python Algo-Trading Backtest Tool
 
-**AlgoTrader** is a modular, Python-based algorithmic trading prototype that uses technical analysis strategies to generate buy/sell signals, backtest them on historical stock data, and log the results into Google Sheets.
+A modular and beginner-friendly algorithmic trading tool using **RSI + Moving Average Crossover** strategy. Fetch stock data, backtest signals, and log results directly to **Google Sheets** using Python.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Real-time historical data fetching using **Yahoo Finance** (`yfinance`)
-- 📉 Technical indicators: **RSI**, **50-day & 200-day MA**
-- 📊 Backtesting logic with **cumulative returns** comparison
-- 🧠 Modular ML support (optional: logistic regression, decision tree)
-- 📄 Auto logs strategy output to **Google Sheets** using `gspread`
-- 🔔 Extendable architecture for live alerts or trading APIs (e.g., Telegram, Zerodha)
+- ✅ Fetches historical stock data (e.g., from Yahoo Finance)
+- 📊 Implements RSI + 50/200-day MA crossover strategy
+- 📉 Backtests performance vs market
+- 📄 Automatically logs trades and P&L into Google Sheets
+- 🔌 Modular design: Add your own indicators or ML model
 
 ---
 
-## 🛠️ Project Structure
+## 🛠️ Tech Stack
+
+- `Python 3.10+`
+- `pandas`, `numpy`, `yfinance`
+- `pandas-ta` (technical indicators)
+- `gspread`, `gspread_dataframe` (Google Sheets API)
+
+---
+
+
+
+
 
